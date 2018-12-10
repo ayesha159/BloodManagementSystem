@@ -24,7 +24,8 @@ public partial class MasterPage : System.Web.UI.MasterPage
             mnuLogOut.Visible = true;
             mnuChangePWD.Visible = true;
             mnuUserProfile.Visible = true;
-            if (Convert.ToBoolean(UserRole.Contains("Donor"))== true) { mnuSearchDonor.Visible = true; } else { mnuSearchDonor.Visible = false; } 
+            mnuMyRequests.Visible = true;
+            if (Convert.ToBoolean(UserRole.Contains("Donor"))== true) { mnuConfirmation.Visible = true;  mnumybloodrequested.Visible = true;  mnuSearchDonor.Visible = true; } else { mnuSearchDonor.Visible = false; } 
 
             if (_id == "1")  {
                 mnuUsersBloodRequests.Visible = true;

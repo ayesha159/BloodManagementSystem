@@ -34,7 +34,7 @@
                     <div class="media">
                         <i class="fa fa-map-o"></i>
                         <div class="media-body">
-                            <h3>Register</h3>
+                            <h3>User Profile</h3>
                         </div>
                     </div>
                     <!-- Phone -->

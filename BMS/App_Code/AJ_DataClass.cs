@@ -160,7 +160,7 @@ public class AJ_DataClass
             cmd.CommandType = CommandType.Text;
             if (con.State == ConnectionState.Closed)
                 con.Open();
-            cmd.ExecuteNonQuery();
+           int i =  cmd.ExecuteNonQuery();
             if (con.State == ConnectionState.Open)
                 con.Close();
             return "Update Record(s) Succfully";

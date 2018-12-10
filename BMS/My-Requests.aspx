@@ -6,11 +6,11 @@
     <section class="page-title text-center" style="background-image:url(images/background/3.jpg);">
   
  <div class="container">
-        <div class="title-text">
-            <h2>My Requests</h2>
+          <div class="title-text">
+            <h1>My Requests</h1>
             <ul class="title-menu clearfix">
                 <li>
-                    <a href="default.aspx">home</a>
+                    <a href="default.aspx">home &nbsp;/</a>
                 </li>
                 <li>My Requests</li>
             </ul>

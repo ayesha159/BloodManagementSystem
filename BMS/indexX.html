@@ -1,12 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default"  MaintainScrollPositionOnPostback="true"  %>
-
 <!DOCTYPE html>
+<html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <title>Medic | Medical HTML Template</title>
 
+  
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -23,10 +22,12 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
 </head>
+
+
 <body>
-    <form id="form1" runat="server">
-        <div class="page-wrapper">
+  <div class="page-wrapper">
     <!-- Preloader -->
     <!-- <div class="preloader"></div> -->
     <!-- Preloader -->
@@ -37,7 +38,7 @@
 <div class="header-top">
       <div class="container clearfix">
             <div class="top-left">
-                  <h6>Opening Hours : Saturday to Tuesday - 8am to 10pm</h6><asp:Label ID="lblUser" runat="server" />.<asp:Label ID="lblUserRole" runat="server" />
+                  <h6>Opening Hours : Saturday to Tuesday - 8am to 10pm</h6>
             </div>
             <div class="top-right">
                   <ul class="social-links">
@@ -77,7 +78,7 @@
       <div class="container clearfix">
             <div class="logo">
                   <figure>
-                        <a href="default.aspx">
+                        <a href="index.html">
                               <img src="images/logo.png" alt="" width="130">
                         </a>
                   </figure>
@@ -129,53 +130,29 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
                         <li class="active">
-                              <a href="default.aspx">Home</a>
+                              <a href="index.html">Home</a>
                         </li>
                         <li>
-                              <a href="about.aspx">About</a>
+                              <a href="about.html">About</a>
                         </li>
-
-                      <li runat="server" id="mnuUserProfile" visible="false" >
-                              <a href="User-Profile.aspx">User Profile</a>
+                        <li>
+                              <a href="service.html">Service</a>
                         </li>
-                      
-                      <li>
-                              <a href="contact.aspx">Contact</a>
+                        <li>
+                              <a href="gallery.html">Gallery</a>
                         </li>
-
-                      <li runat="server" id="mnuRegister" visible="false">                        
-                              <a href="register.aspx">Register</a>
-                        </li>  
-                      <li runat="server" id="mnuLogin"  visible="false">
-                              <a href="login.aspx">LogIn</a>
+                        <li>
+                              <a href="team.html">Team</a>
                         </li>
-                        
-                        <li runat="server" id="mnuChangePWD"   visible="false" >
-                              <a href="Change-Password.aspx">Change Password</a>
+                        <li>
+                              <a href="appointment.html">Appointment</a>
                         </li>
-
-                        <li runat="server" id="mnuSearchDonor"   visible="false" >
-                              <a href="SearchDonor.aspx">Search Donor</a>
+                        <li>
+                              <a href="blog.html">Blog</a>
                         </li>
-
-                      <li runat="server" id="mnuRequestList"   visible="false" >
-                              <a href="Blood-Request-List.aspx">Request Lists</a>
-                      </li>
-
-                      <li runat="server" id="mnuUsersListAdmin"   visible="false" >
-                              <a href="Users-Profile-Admin.aspx">Users Info Admin</a>
-                      </li>
-
-                      
-
-
-                        <li runat="server" id="mnuLogOut"  visible="false">
-                              <a href="logout.aspx">Log Out</a> 
+                        <li>
+                              <a href="contact.html">Contact</a>
                         </li>
-                      
-                      
-                        
-
                         <!-- <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown
                                     <span class="caret"></span>
@@ -219,8 +196,9 @@
                 <div class="col-12">
                     <!-- Slide Content Start -->
                     <div class="content style text-center">
-                        <h2 class="text-white text-bold mb-2">Blood Management System</h2>
-                        <p class="tag-text mb-5"> </p>
+                        <h2 class="text-white text-bold mb-2">Our Best Surgeons</h2>
+                        <p class="tag-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sunt animi sequi ratione quod at earum. <br>
+                             Quis quos officiis numquam!</p>
                         <a href="#" class="btn btn-main btn-white">explore</a>
                     </div>
                     <!-- Slide Content End -->
@@ -297,14 +275,428 @@
     </div>
 </section>
 
+<!--about section-->
+<section class="feature-section section bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12">
+				<div class="image-content">
+					<div class="section-title text-center">
+						<h3>Best Features
+							<span>of Our Hospital</span>
+						</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magni in at debitis <br>
+							nam error officia vero tempora alias? Sunt?</p>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="#">
+											<img src="images/resource/1.png" alt="">
+										</a>
+									</figure>
+								</div>
+								<h6>Orthopedics</h6>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus veniam illo quibusdam pariatur ex sunt, est aspernatur 
+									at debitis eius vitae vel nostrum dolorem labore autem corrupti odit mollitia?</p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="#">
+											<img src="images/resource/2.png" alt="">
+										</a>
+									</figure>
+								</div>
+								<h6>Diaginostic</h6>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus veniam illo quibusdam pariatur ex sunt, est aspernatur
+								at debitis eius vitae vel nostrum dolorem labore autem corrupti odit mollitia?</p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="#">
+											<img src="images/resource/3.png" alt="">
+										</a>
+									</figure>
+								</div>
+								<h6>Psycology</h6>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus veniam illo quibusdam pariatur ex sunt, est aspernatur
+								at debitis eius vitae vel nostrum dolorem labore autem corrupti odit mollitia?</p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="#">
+											<img src="images/resource/4.png" alt="">
+										</a>
+									</figure>
+								</div>
+								<h6>General Treatment</h6>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus veniam illo quibusdam pariatur ex sunt, est aspernatur
+								at debitis eius vitae vel nostrum dolorem labore autem corrupti odit mollitia?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--End about section-->
 
+<!--Start about us area-->
+<section class="service-tab-section section">
+    <div class="outer-box clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Nav tabs -->
+                    <div class="tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#dormitory"  data-toggle="tab">dormitory</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#orthopedic" data-toggle="tab">orthopedic</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#sonogram" data-toggle="tab">sonogram</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#x-ray" data-toggle="tab">x-ray</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#diagnostic" data-toggle="tab">diagnostic</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Start single tab content-->
+                    <div class="tab-content">
+                        <div class="service-box tab-pane fade in active row" id="dormitory">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-one.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>dormitory</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added. then a
+                                            dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                            <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added. then a dental
+                                                prosthetic is added.then a dental pros- thetic is added.</p>
+                                    </div>
+                                    <ul class="content-list">
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular dental</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-style-one">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                        <!--Start single tab content-->
+                        <div class="service-box tab-pane fade in" id="orthopedic">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-two.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>orthopedic</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added.
+                                            then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added.
+                                            then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                    </div>
+                                    <ul class="content-list">
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular dental</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-style-one">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                        <!--Start single tab content-->
+                        <div class="service-box tab-pane fade in" id="sonogram">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-three.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>sonogram</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added.
+                                            then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added.
+                                            then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                    </div>
+                                    <ul class="content-list">
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular dental</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-style-one">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                        <!--Start single tab content-->
+                        <div class="service-box tab-pane fade in" id="x-ray">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-four.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>x-ray</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added.
+                                            then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added.
+                                            then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                    </div>
+                                    <ul class="content-list">
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular dental</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-style-one">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                        <!--Start single tab content-->
+                        <div class="service-box tab-pane fade in" id="diagnostic">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-five.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>diagnostic</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added.
+                                            then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                        <p>The implant fixture is first placed, so that it ilikely to osseointegrate, then a dental prosthetic is added.
+                                            then a dental prosthetic is added.then a dental pros- thetic is added.</p>
+                                    </div>
+                                    <ul class="content-list">
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Whitening is among the most popular dental</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Teeth cleaning is part of oral hygiene and involves</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-style-one">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End about us area-->
+
+<!--Service Section-->
+<section class="service-section bg-gray section">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Provided
+                <span>Services</span>
+            </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. qui suscipit atque <br>
+                fugiat officia corporis rerum eaque neque totam animi, sapiente culpa. Architecto!</p>
+        </div>
+        <div class="row items-container clearfix">
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service.html">
+                            <img src="images/gallery/1.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Better Service At Low Cost</span>
+                        <a href="service.html">
+                            <h6>Dormitory</h6>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service.html">
+                            <img src="images/gallery/2.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Better Service At Low Cost</span>
+                        <a href="service.html">
+                            <h6>Germs Protection</h6>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service.html">
+                            <img src="images/gallery/3.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Better Service At Low Cost</span>
+                        <a href="service.html">
+                            <h6>Psycology</h6>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service.html">
+                            <img src="images/gallery/1.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Better Service At Low Cost</span>
+                        <a href="service.html">
+                            <h6>Dormitory</h6>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service.html">
+                            <img src="images/gallery/2.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Better Service At Low Cost</span>
+                        <a href="service.html">
+                            <h6>Germs Protection</h6>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service.html">
+                            <img src="images/gallery/3.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Better Service At Low Cost</span>
+                        <a href="service.html">
+                            <h6>Psycology</h6>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Service Section-->
+
+<!--team section-->
+<section class="team-section section">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Our Expert
+                <span>Doctors</span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem illo, rerum 
+                <br>natus nobis deleniti doloremque minima odit voluptatibus ipsam animi?</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member">
+                    <img src="images/team/doctor-2.jpg" alt="doctor" class="img-responsive">
+                    <div class="contents text-center">
+                        <h4>Dr. Robert Barrethion</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, aspernatur.</p>
+                        <a href="#" class="btn btn-main">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member">
+                    <img src="images/team/doctor-lab-3.jpg" alt="doctor" class="img-responsive">
+                    <div class="contents text-center">
+                        <h4>Dr. Marry Lou</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, aspernatur.</p>
+                        <a href="#" class="btn btn-main">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="team-member">
+                    <img src="images/team/event-2.jpg" alt="doctor" class="img-responsive">
+                    <div class="contents text-center">
+                        <h4>Dr. Sansa Stark</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, aspernatur.</p>
+                        <a href="#" class="btn btn-main">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End team section-->
 
 <!--testimonial-section-->
 <section class="testimonial-section" style="background: url(images/testimonials/1.jpg);">
     <div class="container">
         <div class="section-title text-center">
             <h3>What Our
-                <span>Survivors Says</span>
+                <span>Patients Says</span>
             </h3>
         </div>
         <div class="testimonial-carousel">
@@ -553,7 +945,7 @@
 <!-- End Contact Section -->
 
 <!--footer-main-->
-            <footer class="footer-main">
+<footer class="footer-main">
   <div class="footer-top">
     <div class="container">
       <div class="row">
@@ -561,20 +953,16 @@
           <div class="about-widget">
             <div class="footer-logo">
               <figure>
-                <a href="default.aspx">
-
-                  <img src="images/logo.png" alt="">
-                    <h3>Blood Management System</h3>
+                <a href="index.html">
+                  <img src="images/logo-2.png" alt="">
                 </a>
               </figure>
             </div>
-            <p>Blood transfusion helps save millions of lives every year. Optimistically, we will help to save more.
-
-</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus?</p>
             <ul class="location-link">
               <li class="item">
                 <i class="fa fa-map-marker"></i>
-                <p>Lahore,Pakistan</p>
+                <p>Modamba, NY 80021, United States</p>
               </li>
               <li class="item">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -600,98 +988,80 @@
           <ul class="menu-link">
             <li>
               <a href="#">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Autologous Donations</a>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Orthopadic Liabilities</a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Directed Donations</a>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Dental Clinic</a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Therapeutic Apheresis</a>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Dormamu Clinic</a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Bone Marrow</a>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Psycological Clinic</a>
             </li>
-          
+            <li>
+              <a href="#">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Gynaecological Clinic</a>
+            </li>
           </ul>
         </div>
-        
-          <div class="col-md-4 col-sm-6 col-xs-12">
-                        <h6>
-                            <a onclick="documentTrack('/media/');" href="/media/">Media</a>
-                        </h6>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a onclick="documentTrack('/media/press-releases/');" href="/media/press-releases/">Press Releases</a>
-                            </li>
-                            <li>
-                                <a onclick="documentTrack('/media/blog/');" href="/media/blog/">Blog</a>
-                            </li>
-                            <li>
-                                <a onclick="documentTrack('/media/social-stream.stml');" href="/media/social-stream.stml">Social Stream</a>
-                            </li>
-                            <li>
-                                <a onclick="documentTrack('/media/graphic-standards.stml');" href="/media/graphic-standards.stml">Graphic Standards, Logos &amp; Images</a>
-                            </li>
-                            <li>
-                                <a onclick="documentTrack('/media/media-inquiries.stml');" href="/media/media-inquiries.stml">Media Inquiries</a>
-                            </li>
-                        </ul>
-                        <a onclick="documentTrack('tel:18889366283');" href="tel:18889366283">
-                            <span class="h4">1.888.9.DONATE (936.6283)</span>
-                        </a>
-                        <div class="ct-footer__socials">
-                            &nbsp;<ul class="list-unstyled list-inline">
-                                <li>
-                                    <a onclick="documentTrack('//www.facebook.com/myoneblood/');" href="//www.facebook.com/myoneblood/" target="_blank">
-                                        <i class="fa fa-facebook-square">&nbsp;</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a onclick="documentTrack('//instagram.com/myoneblood/');" href="//instagram.com/myoneblood/" target="_blank">
-                                        <i class="fa fa-instagram">&nbsp;</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a onclick="documentTrack('//twitter.com/my1blood/');" href="//twitter.com/my1blood/" target="_blank">
-                                        <i class="fa fa-twitter">&nbsp;</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a onclick="documentTrack('//www.youtube.com/user/OneBloodVideos?feature=mhee');" href="//www.youtube.com/user/OneBloodVideos?feature=mhee" target="_blank">
-                                        <i class="fa fa-youtube">&nbsp;</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a onclick="documentTrack('//www.pinterest.com/myoneblood/');" href="//www.pinterest.com/myoneblood/" target="_blank">
-                                        <i class="fa fa-pinterest">&nbsp;</i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <a onclick="documentTrack('/about-donating/target-your-type/');" href="/about-donating/target-your-type/">
-                            &nbsp;</a></div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="social-links">
+            <h6>Recent Posts</h6>
+            <ul>
+              <li class="item">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="images/blog/post-thumb-small.jpg" alt="post-thumb">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="#">Post Title</a></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="item">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="images/blog/post-thumb-small.jpg" alt="post-thumb">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="#">Post Title</a>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div class="footer-bottom">
     <div class="container clearfix">
       <div class="copyright-text">
-        <p>&copy; Copyright 2018. All Rights Reserved by UET
-          <a href="default.aspx">Medic</a>
+        <p>&copy; Copyright 2018. All Rights Reserved by
+          <a href="index.html">Medic</a>
         </p>
       </div>
       <ul class="footer-bottom-link">
         <li>
-          <a href="default.aspx">Home</a>
+          <a href="index.html">Home</a>
         </li>
         <li>
-          <a href="about.aspx">About</a>
+          <a href="about.html">About</a>
         </li>
         <li>
-          <a href="contact.aspx">Contact</a>
+          <a href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -724,6 +1094,7 @@
 <script src="plugins/jquery-ui.js"></script>
 <script src="plugins/timePicker.js"></script>
 <script src="js/script.js"></script>
-    </form>
 </body>
+
 </html>
+
